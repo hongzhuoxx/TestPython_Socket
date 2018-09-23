@@ -13,7 +13,7 @@ client = socket.socket()
 
 
 def recMsg():
-    print("FFF")
+    print("开始信息接受")
     while True:
         print(client.recv(1024).decode(encoding='utf8'))
 
